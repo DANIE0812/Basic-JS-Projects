@@ -10,6 +10,11 @@ let formatHours = convertFormat(hours)
 
 }
 function convertFormat(time){
+    let format = 'AM'
+    if (time >= 12) {
+        format = 'PM'
+    }
+    return format;
 }
 */
 
