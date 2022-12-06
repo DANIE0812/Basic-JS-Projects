@@ -23,5 +23,5 @@ equalBtn.addEventListener('click', () => {
 });
 
 clearBtn.addEventListener('click', () => {
-    screen.value = '';
+   screen.value = '';
 });

@@ -9,18 +9,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(74, 59, 59);
 }
 
 .calculator{
-    flex: 0 0 95%;
+    flex: 0 0 60%;
+    background-color: aliceblue;
 }
 
 .screen{
     width: 100%;
-    font-size: 7rem;
+    font-size: 6rem;
     padding: 0.5rem;
-    background: rgb(41, 41, 56);
-    color: whitesmoke; 
+    background: aliceblue;
+    color: #000; 
     border: none;
 }
 
@@ -34,7 +36,7 @@ button{
     flex: 0 0 25%;
     border: 1px solid black;
     padding: 0.25rem 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 
 button:hover{
